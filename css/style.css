@@ -793,7 +793,7 @@ hr {
     max-height: 656px;
     border-radius: 20px;
     background-color: #FFFFFF;
-    top: 12%;
+/*     top: 12%; */
     /* позиционируем */
     position: absolute;
 
