@@ -285,7 +285,7 @@ body {
     .card_img {
         width: 134px;
         height: 207px;
-        border-radius: 12px;
+        border-radius: 20px;
     }
 
     .card p {
