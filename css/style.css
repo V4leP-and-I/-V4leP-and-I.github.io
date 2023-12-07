@@ -67,13 +67,11 @@ body {
         /* width: 320px; */
         height: 549px;
         border-radius: 10px;
-        top: 12%;
     }
     #okno2 {
         /* width: 320px; */
         height: 549px;
         border-radius: 10px;
-        top: 12%;
     }
     .reg_text {
         font-size: 32px;
@@ -184,13 +182,11 @@ body {
         /* width: 320px; */
         height: 549px;
         border-radius: 10px;
-        top: 12%;
     }
     #okno2 {
         /* width: 320px; */
         height: 549px;
         border-radius: 10px;
-        top: 12%;
     }
     .reg_text {
         font-size: 32px;
@@ -315,14 +311,12 @@ body {
         width: 320px;
         height: 656px;
         border-radius: 10px;
-        top: 1%;
-        /* position: initial; */
+        position: initial;
     }
     #okno2 {
         width: 320px;
         height: 656px;
         border-radius: 10px;
-        top: 1%;
     }
     .reg_text {
         font-size: 20px;
@@ -440,13 +434,11 @@ body {
         /* width: 320px; */
         height: 549px;
         border-radius: 10px;
-        top: 12%;
     }
     #okno2 {
         /* width: 320px; */
         height: 549px;
         border-radius: 10px;
-        top: 12%;
     }
     .reg_text {
         font-size: 32px;
@@ -801,7 +793,7 @@ hr {
     max-height: 656px;
     border-radius: 20px;
     background-color: #FFFFFF;
-    /* top: 12%; */
+    top: 12%;
     /* позиционируем */
     position: absolute;
 
