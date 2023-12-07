@@ -245,7 +245,7 @@ body {
     }
 }
 
-@media(max-width:992px) {
+@media(min-width:321px) {
     .container {
         width: 280px;
         margin-top: 15px;
