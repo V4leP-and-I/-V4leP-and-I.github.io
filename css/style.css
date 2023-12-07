@@ -62,33 +62,44 @@ body {
         width: 184px;
         height: 44px;
     }
+
     /* регистрация */
     #okno {
         /* width: 320px; */
         height: 549px;
         border-radius: 10px;
         /* top: 12%; */
+        margin-top: -275px;
+        margin-left: -300px;
     }
+
     #okno2 {
         /* width: 320px; */
         height: 549px;
         border-radius: 10px;
+        margin-top: -186px;
+        margin-left: -300px;
         /* top: 12%; */
     }
+
     .reg_text {
         font-size: 32px;
     }
+
     .log_text {
         font-size: 32px;
     }
+
     .reg_log {
         width: 443px;
         height: 39px;
     }
+
     .input_all {
         width: 520px;
         height: 210px;
     }
+
     /* .input_name {
         width: 520px;
         height: 50px;
@@ -101,27 +112,33 @@ body {
         width: 520px;
         height: 60px;
     }
+
     .text_other {
         width: 210px;
         height: 60px;
     }
+
     .reg_button {
         width: 520px;
         height: 60px;
     }
+
     .accord {
         width: 397px;
         height: 20px;
     }
+
     .closed {
         width: 560px;
         height: 20px;
     }
+
     /* авторизация */
     .input_other2 {
         width: 520px;
         height: 60px;
     }
+
     .input_other2 input {
         width: 210px;
     }
@@ -179,34 +196,45 @@ body {
         width: 176px;
         height: 44px;
     }
+
     /* регистрация */
     #okno {
         /* width: 320px; */
         height: 549px;
         border-radius: 10px;
         /* top: 12%; */
+        margin-top: -275px;
+        margin-left: -300px;
     }
+
     #okno2 {
         /* width: 320px; */
         height: 549px;
         border-radius: 10px;
         /* top: 12%; */
+        margin-top: -186px;
+        margin-left: -300px;
     }
+
     .reg_text {
         font-size: 32px;
     }
+
     .log_text {
         font-size: 32px;
     }
+
     .reg_log {
         width: 443px;
         height: 39px;
     }
+
     /* инпуты */
     .input_all {
         width: 520px;
         height: 210px;
     }
+
     /* .input_name {
         width: 520px;
         height: 50px;
@@ -219,27 +247,33 @@ body {
         width: 520px;
         height: 60px;
     }
+
     .text_other {
         width: 210px;
         height: 60px;
     }
+
     .reg_button {
         width: 520px;
         height: 60px;
     }
+
     .accord {
         width: 397px;
         height: 20px;
     }
+
     .closed {
         width: 560px;
         height: 20px;
     }
+
     /* авторизация */
     .input_other2 {
         width: 520px;
         height: 60px;
     }
+
     .input_other2 input {
         width: 210px;
     }
@@ -307,38 +341,50 @@ body {
         width: 102px;
         height: 44px;
     }
+
     /* регистрация */
     .container2 {
         width: 320px;
     }
+
     #okno {
         width: 320px;
         height: 656px;
         border-radius: 10px;
         position: initial;
         /* top: 1%; */
+        margin-top: -328px;
+        margin-left: -160px;
     }
+
     #okno2 {
         width: 320px;
         height: 656px;
         border-radius: 10px;
         /* top: 1%; */
+        margin-top: -186px;
+        margin-left: -160px;
     }
+
     .reg_text {
         font-size: 20px;
     }
+
     .log_text {
         font-size: 20px;
     }
+
     .reg_log {
         width: 280px;
         height: 24px;
     }
+
     /* инпуты */
     .input_all {
         width: 280px;
         height: 364px;
     }
+
     /* .input_name {
         width: 280px;
         height: 60px;
@@ -351,31 +397,38 @@ body {
         width: 250px;
         height: 60px;
     }
+
     .text_other {
         width: 280px;
         height: 60px;
     }
+
     .reg_button {
         width: 280px;
         height: 60px;
     }
+
     .accord {
         width: 280px;
         height: 40px;
     }
+
     .info {
         width: 280px;
         height: 40px;
     }
+
     .closed {
         width: 280px;
         height: 20px;
     }
+
     /* авторизация */
     .input_other2 {
         width: 280px;
         height: 136px;
     }
+
     .input_other2 input {
         width: 280px;
     }
@@ -435,34 +488,45 @@ body {
         height: 44px;
         margin-top: 80%;
     }
+
     /* регистрация */
     #okno {
         /* width: 320px; */
         height: 549px;
         border-radius: 10px;
         /* top: 12%; */
+        margin-top: -275px;
+        margin-left: -300px;
     }
+
     #okno2 {
         /* width: 320px; */
         height: 549px;
         border-radius: 10px;
+        margin-top: -186px;
+        margin-left: -300px;
         /* top: 12%; */
     }
+
     .reg_text {
         font-size: 32px;
     }
+
     .log_text {
         font-size: 32px;
     }
+
     .reg_log {
         width: 443px;
         height: 39px;
     }
+
     /* инпуты */
     .input_all {
         width: 520px;
         height: 210px;
     }
+
     /* .input_name {
         width: 520px;
         height: 50px;
@@ -475,31 +539,38 @@ body {
         width: 520px;
         height: 60px;
     }
+
     .text_other {
         width: 210px;
         height: 60px;
     }
+
     .reg_button {
         width: 520px;
         height: 60px;
     }
+
     .accord {
         width: 397px;
         height: 20px;
     }
+
     .info {
         width: 338px;
         height: 20px;
     }
+
     .closed {
         width: 560px;
         height: 20px;
     }
+
     /* авторизация */
     .input_other2 {
         width: 520px;
         height: 60px;
     }
+
     .input_other2 input {
         width: 210px;
     }
@@ -804,10 +875,9 @@ hr {
     /* top: 12%; */
     /* позиционируем */
     position: fixed;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
 
 }
 
@@ -1020,10 +1090,8 @@ a {
     /* top: 12%; */
     /* позиционируем */
     position: fixed;
-    top: 50%; left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
 }
 
 #zatemnenie2:target {
