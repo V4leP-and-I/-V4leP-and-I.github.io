@@ -803,7 +803,11 @@ hr {
     background-color: #FFFFFF;
     /* top: 12%; */
     /* позиционируем */
-    position: absolute;
+    position: fixed;
+    top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 
 }
 
@@ -1016,7 +1020,11 @@ a {
     background-color: #FFFFFF;
     /* top: 12%; */
     /* позиционируем */
-    position: absolute;
+    position: fixed;
+    top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 #zatemnenie2:target {
