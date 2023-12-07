@@ -241,7 +241,7 @@ body {
     }
 }
 
-@media(max-width:400px) {
+@media(max-width:321px) {
     .container {
         width: 280px;
         margin-top: 15px;
