@@ -805,7 +805,7 @@ hr {
     /* позиционируем */
     position: fixed;
     top: 50%; left: 50%;
-    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 
@@ -898,7 +898,6 @@ hr {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     box-shadow: none;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
 }
