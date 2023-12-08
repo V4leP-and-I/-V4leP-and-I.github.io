@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт с обзорами фильмов</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <registration id="zatemnenie">
+        <div class="container2">
+            <div id="okno" class="header_warp2">
+                <div class="closed">
+                    <a href="#" class="close">
+                        <img src="img/close.svg" alt="close">
+                    </a>
+                </div>
+                <div class="reg_log">
+                    <div class="reg">
+                        <a class="reg_text">Регистрация</a>
+                    </div>
+                    <div class="log">
+                        <a href="#" class="close">
+                            <a class="log_text" href="#zatemnenie2">Авторизация</a>
+                        </a>
+                    </div>
+                </div>
+                <div class="input_all" id="input_all">
+                    <input type="text" id="name" value class="text_name" placeholder="Ваше имя" required>
+                    </input>
+                    <input type="email" id="email" value class="text_other" placeholder="Email" pattern="[a-zA-Z]{3,30}"
+                        required>
+                    </input>
+                    <input type="text" id="phone" class="text_other" placeholder="Телефон">
+                    </input>
+                    <input type="password" id="password" value class="text_other" placeholder="Пароль" required>
+                    </input>
+                    <input type="password" id="password2" value class="text_other" placeholder="Повторите пароль"
+                        required>
+                    </input>
+                </div>
+
+
+
+
+                <div class="accord">
+                    <input id="html" type="checkbox">
+                    <label for="html">Согласен на обработку персональных данных</label>
+                </div>
+                <button class="reg_button">
+                    <a class="registration_text">Зарегистрироваться</a>
+                </button>
+
+
+                <div class="info">
+                    <img src="img/info.svg" alt="Важно" height=20px width=20px>
+                    <a class="important">Все поля обязательны для заполнения</a>
+                </div>
+            </div>
+        </div>
+    </registration>
+
+    <login id="zatemnenie2">
+        <div class="container2">
+            <div id="okno2" class="header_warp">
+                <div class="closed">
+                    <a href="#" class="close">
+                        <img src="img/close.svg" alt="close">
+                    </a>
+                </div>
+                <div class="reg_log">
+                    <div class="reg">
+                        <a class="reg_text" href="#zatemnenie">Регистрация</a>
+                    </div>
+                    <div class="log">
+                        <a class="log_text">Авторизация</a>
+                    </div>
+                </div>
+
+                <div class="input_other2">
+                    <input type="text" placeholder="Email">
+                    <!-- <a class="text2">Email</a> -->
+                    </input>
+                    <input type="text" placeholder="Пароль">
+                    <!-- <a class="text2">Пароль</a> -->
+                    </input>
+                </div>
+
+                <button class="reg_button">
+                    <a class="registration_text">Войти</a>
+                </button>
+
+                <div class="info">
+                    <img src="img/info.svg" alt="Важно" height=20px width=20px>
+                    <a class="important">Все поля обязательны для заполнения</a>
+                </div>
+
+            </div>
+
+        </div>
+    </login>
+
+    <header>
+        <div class="container">
+            <div class="header_header">
+                <div class="header_warp">
+                    <div class="header_icons">
+                        <img src="img/logo.svg" alt="Логотип" height=40px width=40px>
+
+                        <div class="header_name">
+                            <a class="main">Сайт с обзорами <br /> фильмов</a>
+                        </div>
+                    </div>
+                    <div class="register_logIn">
+                        <form action="#zatemnenie">
+                            <button class="main_button1">
+                                <a class="main">Регистрация</a>
+                            </button>
+                        </form>
+
+                        <form action="#zatemnenie2">
+                            <button class="main_button2">
+                                <a class="main">Вход</a>
+                            </button>
+                        </form>
+
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+        </div>
+    </header>
+    <Top>
+        <div class="container">
+            <div class="header_warp">
+                <div class="top">
+                    Топ 20 фильмов
+                </div>
+
+                <div class="button">
+                    <img src="img/+.svg" alt="+" height="20px" width="20px">
+                    <p>Добавить обзор</p>
+                </div>
+            </div>
+        </div>
+    </Top>
+
+    <content id="content">
+        <div class="container">
+            <div class="header_warp">
+                <!-- 1 ряд -->
+                <div class="card">
+                    <div class="warp">
+                        <img class="card_img" src="img/card/1.svg" alt="1">
+                        <p>Зеленая миля (1999)</p>
+                        <a class="main_1">Добавлено 15 августа</a>
+                        <a class="main_2">&#9719 15 августа</a>
+                        <div class="button_more">
+                            Подробнее
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="warp">
+                        <img class="card_img" src="img/card/2.svg" alt="1">
+                        <p>Список Шиндлера (1993)</p>
+                        <a class="main_1">Добавлено 15 августа</a>
+                        <a class="main_2">&#9719 15 августа</a>
+                        <div class="button_more">
+                            Подробнее
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="warp">
+                        <img class="card_img" src="img/card/3.svg" alt="1">
+                        <p>Побег из Шоушенка (1994)</p>
+                        <a class="main_1">Добавлено 15 августа</a>
+                        <a class="main_2">&#9719 15 августа</a>
+                        <div class="button_more">
+                            Подробнее
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="warp">
+                        <img class="card_img" src="img/card/4.svg" alt="1">
+                        <p>Форрест Гамп (1994)</p>
+                        <a class="main_1">Добавлено 15 августа</a>
+                        <a class="main_2">&#9719 15 августа</a>
+                        <div class="button_more">
+                            Подробнее
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="warp">
+                        <img class="card_img" src="img/card/5.svg" alt="1">
+                        <p>Властелин колец: Возвращение короля (2003)</p>
+                        <a class="main_1">Добавлено 15 августа</a>
+                        <a class="main_2">&#9719 15 августа</a>
+                        <div class="button_more">
+                            Подробнее
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 ряд -->
+                <div class="card">
+                    <div class="warp">
+                        <img class="card_img" src="img/card/6.svg" alt="1">
+                        <p>Властелин колец: Братство Кольца (2001)</p>
+                        <a class="main_1">Добавлено 15 августа</a>
+                        <a class="main_2">&#9719 15 августа</a>
+                        <div class="button_more">
+                            Подробнее
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="warp">
+                        <img class="card_img" src="img/card/7.svg" alt="1">
+                        <p>Властелин колец: Две крепости (2002)</p>
+                        <a class="main_1">Добавлено 15 августа</a>
+                        <a class="main_2">&#9719 15 августа</a>
+                        <div class="button_more">
+                            Подробнее
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="warp">
+                        <img class="card_img" src="img/card/8.svg" alt="1">
+                        <p>1+1 (2011)</p>
+                        <a class="main_1">Добавлено 15 августа</a>
+                        <a class="main_2">&#9719 15 августа</a>
+                        <div class="button_more">
+                            Подробнее
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="warp">
+                        <img class="card_img" src="img/card/9.svg" alt="1">
+                        <p>Интерстеллар (2014)</p>
+                        <a class="main_1">Добавлено 15 августа</a>
+                        <a class="main_2">&#9719 15 августа</a>
+                        <div class="button_more">
+                            Подробнее
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="warp">
+                        <img class="card_img" src="img/card/10.svg" alt="1">
+                        <p>Тайна Коко (2017)</p>
+                        <a class="main_1">Добавлено 15 августа</a>
+                        <a class="main_2">&#9719 15 августа</a>
+                        <div class="button_more">
+                            Подробнее
+                        </div>
+                    </div>
+                </div>
+                <!-- кнопка "показать больше" -->
+                <div class="button_show_more">
+                    <!-- <img src="img/arrow.svg" alt="down"> -->
+                    &#5167 Показать еще
+                </div>
+            </div>
+            <!-- <hr> -->
+        </div>
+    </content>
+
+    <footer>
+        <div class="container">
+            <div class="header_warp">
+                <p class="gmail">info@gmail.com</p>
+                <p class="info">Информация о разработчике</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="cod.js"></script>
+</body>
+
+</html>
